@@ -12,7 +12,10 @@ ConceptAttention is an interpretability method for multi-modal diffusion transfo
 
 You will then need to install the code here locally by running
 ```bash
-    pip install -e .
+pip install -e .
+pip uninstall apex
+pip install nvidia-cublas-cu12==12.5.3.2
+pip install torchsde
 ```
 
 # Running the model 
